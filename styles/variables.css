@@ -1,4 +1,29 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+    --background: url('../images/cover-image.png');
+    --hover: #FFFFFF;
+    --bright: #FFFFFF;
+
+    --line-height: 1.4625rem;
+    --line-height-title: 5.98125rem;
+    --font-weight-bold: 700;
+    --font-weight-normal: 400;
+    --font-size: 18px;
+    --font-family: 'IBM Plex Mono', system-ui, -apple-system, monospace, sans-serif;
+    --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --padding-desktop: 20px;
+    --padding-mobile: 10px;
+    --rec-visibility: hidden;
+
+}
+
+.page.theme_auto {
+    --corner-color: var(--bright);
+    --border-style: var(--bright);
+    --border-style__hover: var(--hover);
+}
+
+@media (width > 767px) { /*  --title-size variable for bigger screens */
+    :root {
+        --title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    }
+}

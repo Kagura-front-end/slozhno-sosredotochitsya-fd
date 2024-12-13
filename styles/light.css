@@ -1,16 +1,59 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
+.page.theme_light {
 
-:root.theme-light {
-  /* сохраните этот селектор в приведённом виде.
-    Так стили написанные ниже будут иметь больший вес,
-    чем стили в медиазапросе предпочтений пользователя
-  */
+    --dark: #000028;
+    --dusk: #353430;
+    --light: #FFF1F7;
+    --hover: #32312D66;
+    --bright: #FF8DCB;
+    --brightest: #FFC2E6;
+    --dark-bright: #FF0070;
+
+    --background: url('./images/cover-image-light.png');
+    --background-color: var(--light);
+    --highlight: var(--bright);
+    --heading-color: var(--brightest);
+    --text-color-highlight: var(--bright);
+    --article-header-color: var(--bright);
+    --text-color-main: var(--dusk);
+    --text-color-transparent: var(--dark);
+    --text-button: var(--dusk);
+    --shadow: var(--dark-bright);
+    --corner-color: var(--dusk);
+    --border-style: var(--dusk);
+    --border-style__hover: var(--hover);
+    --rec-visibility: hidden;
+
+    .title-question {
+        color: var(--dusk);
+    }
+
+
 }
 
-.theme-light .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
+@media (prefers-color-scheme: light) {
+    :root {
+        --dark: #000028;
+        --dusk: #353430;
+        --light: #FFF1F7;
+        --hover: #32312D66;
+        --bright: #FF8DCB;
+        --brightest: #FFC2E6;
+        --dark-bright: #FF0070;
+
+        --background: url('./images/cover-image-light.png');
+        --background-color: var(--light);
+        --highlight: var(--bright);
+        --heading-color: var(--brightest);
+        --text-color-highlight: var(--bright);
+        --article-header-color: var(--bright);
+        --text-color-main: var(--dusk);
+        --text-color-transparent: var(--dark);
+        --text-button: var(--dusk);
+        --shadow: var(--dark-bright);
+        --corner-color: var(--dusk);
+        --border-style: var(--dusk);
+        --border-style__hover: var(--hover);
+        --rec-visibility: hidden;
+        --title-question: var(--dusk);
+    }
 }

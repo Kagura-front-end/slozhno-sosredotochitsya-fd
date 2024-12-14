@@ -52,7 +52,7 @@
         --shadow: var(--dark-bright);
         --corner-color: var(--dusk);
         --border-style: var(--dusk);
-        --border-style__hover: var(--hover);
+        --border-style-hover: var(--hover);
         --rec-visibility: hidden;
         --title-question: var(--dusk);
     }

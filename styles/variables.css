@@ -19,7 +19,7 @@
 .page.theme_auto {
     --corner-color: var(--bright);
     --border-style: var(--bright);
-    --border-style__hover: var(--hover);
+    --border-style-hover: var(--hover);
 }
 
 @media (width > 767px) { /*  --title-size variable for bigger screens */

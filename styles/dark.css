@@ -19,7 +19,7 @@
     --shadow: var(--bright);
     --corner-color: var(--bright);
     --border-style: var(--bright);
-    --border-style__hover: var(--hover);
+    --border-style-hover: var(--hover);
 
     --rec-visibility: visible;
 

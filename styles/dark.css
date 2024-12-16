@@ -21,10 +21,14 @@
     --border-style: var(--bright);
     --border-style-hover: var(--hover);
     --rec-visibility: visible;
-    --header-text: var(--bg-color);
+    --titles-text: var(--bg-color);
 
     .title-question {
         color: var(--bright);
+    }
+
+    .special-link {
+        border-bottom: 1px solid currentColor;
     }
 
 }
@@ -53,6 +57,6 @@
         --border-style: var(--bright);
         --border-style-hover: var(--hover);
         --rec-visibility: visible;
-        --header-text: var(--bg-color);
+        --titles-text: var(--bg-color);
     }
 }

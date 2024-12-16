@@ -21,10 +21,14 @@
     --border-style: var(--dark-bright);
     --border-style-hover: var(--hover);
     --rec-visibility: hidden;
-    --header-text: var(--dusk);
+    --titles--text: var(--dusk);
 
     .title-question {
         color: var(--dusk);
+    }
+
+    .special-link {
+        border-bottom: none;
     }
 }
 
@@ -51,10 +55,8 @@
         --border-style-hover: var(--hover);
         --rec-visibility: hidden;
         --title-question: var(--dusk);
-        --header-text: var(--dusk);
+        --titles-text: var(--dusk);
     }
 
-    .special-link {
-        border-bottom: none;
-    }
+
 }

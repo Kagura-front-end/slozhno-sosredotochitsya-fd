@@ -118,7 +118,7 @@ body {
 }
 
 .header__title {
-    color: var(--header-text);
+    color: var(--titles-text);
     font-weight: 700;
     background: var(--highlight);
     align-self: center;
@@ -244,7 +244,7 @@ body {
 
 .title-gap {
     font-size: var(--font-size);
-    color: var(--dark);
+    color: var(--titles--text);
     background-color: var(--bright);
     margin-bottom: var(--padding-desktop);
 }
@@ -252,7 +252,7 @@ body {
 .article-header {
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size);
-    color: var(--dark);
+    color: var(--titles--text);
     background-color: var(--article-header-color);
 }
 
@@ -314,14 +314,6 @@ body {
     .decorated-zone::after {
         bottom: 20px;
         left: 20px;
-    }
-
-    .special-link {
-        border-bottom: none;
-    }
-
-    .main-text-container {
-        /*        max-width: 648px;*/
     }
 
     .page {

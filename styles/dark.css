@@ -1,26 +1,28 @@
 .page.theme_dark {
 
-    --dark: #000028;
+    --bg-color: #000028;
     --dusk: #353430;
-    --light: #F1B2CE;
+    --txt-color: #F1B2CE;
     --hover: #FF007066;
     --bright: #FF0070;
     --brightest: #DB00FF;
 
     --background: url('../images/cover-image-dark.png');
-    --background-color: var(--dark);
+    --background-color: var(--bg-color);
     --highlight: var(--bright);
     --heading-color: var(--brightest);
     --text-color-highlight: var(--bright);
     --article-header-color: var(--bright);
-    --text-color-main: var(--light);
-    --text-color-transparent: var(--dark);
+    --text-color-main: var(--txt-color);
+    --text-color-transparent: var(--bg-color);
     --text-button: var(--bright);
     --shadow: var(--bright);
     --corner-color: var(--bright);
     --border-style: var(--bright);
     --border-style-hover: var(--hover);
     --rec-visibility: visible;
+    --header-text: var(--bg-color);
+
     .title-question {
         color: var(--bright);
     }
@@ -28,22 +30,22 @@
 }
 @media (prefers-color-scheme: dark) { /* variables for dark mode and special link style */
     :root {
-        --dark: #000028;
+        --bg-color: #000028;
         --dusk: #353430;
-        --light: #F1B2CE;
+        --txt-color: #F1B2CE;
         --hover: #FF007066;
         --bright: #FF0070;
         --brightest: #DB00FF;
 
         --background: url('../images/cover-image-dark.png');
-        --background-color: var(--dark);
+        --background-color: var(--bg-color);
         --highlight: var(--bright);
         --heading-color: var(--brightest);
         --highlighted-area: var(--bright);
         --text-color-highlight: var(--bright);
         --article-header-color: var(--bright);
-        --text-color-main: var(--light);
-        --text-color-transparent: var(--dark);
+        --text-color-main: var(--txt-color);
+        --text-color-transparent: var(--bg-color);
         --text-button: var(--bright);
         --title-question: var(--bright);
         --shadow: var(--bright);
@@ -51,5 +53,6 @@
         --border-style: var(--bright);
         --border-style-hover: var(--hover);
         --rec-visibility: visible;
+        --header-text: var(--bg-color);
     }
 }

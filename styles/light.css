@@ -1,8 +1,7 @@
 .page.theme_light {
 
-    --dark: #000028;
     --dusk: #353430;
-    --light: #FFF1F7;
+    --bg-color: #FFF1F7;
     --hover: #FF007066;
     --bright: #FF8DCB;
     --brightest: #FFC2E6;
@@ -10,30 +9,27 @@
 
 
     --background: url('./images/cover-image-light.png');
-    --background-color: var(--light);
+    --background-color: var(--bg-color);
     --highlight: var(--bright);
     --heading-color: var(--brightest);
     --text-color-highlight: var(--bright);
     --article-header-color: var(--bright);
     --text-color-main: var(--dusk);
-    --text-color-transparent: var(--dark);
     --text-button: var(--dusk);
     --shadow: var(--dark-bright);
     --corner-color: var(--dusk);
     --border-style: var(--dark-bright);
     --border-style-hover: var(--hover);
     --rec-visibility: hidden;
+    --header-text: var(--dusk);
 
     .title-question {
         color: var(--dusk);
     }
-
-
 }
 
 @media (prefers-color-scheme: light) {
     :root {
-        --dark: #000028;
         --dusk: #353430;
         --light: #FFF1F7;
         --hover: #32312D66;
@@ -42,13 +38,12 @@
         --dark-bright: #FF0070;
 
         --background: url('./images/cover-image-light.png');
-        --background-color: var(--light);
+        --background-color: var(--bg-color);
         --highlight: var(--bright);
         --heading-color: var(--brightest);
         --text-color-highlight: var(--bright);
         --article-header-color: var(--bright);
         --text-color-main: var(--dusk);
-        --text-color-transparent: var(--dark);
         --text-button: var(--dusk);
         --shadow: var(--dark-bright);
         --corner-color: var(--dusk);
@@ -56,5 +51,10 @@
         --border-style-hover: var(--hover);
         --rec-visibility: hidden;
         --title-question: var(--dusk);
+        --header-text: var(--dusk);
+    }
+
+    .special-link {
+        border-bottom: none;
     }
 }

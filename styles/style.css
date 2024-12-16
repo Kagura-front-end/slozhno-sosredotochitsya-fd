@@ -118,7 +118,7 @@ body {
 }
 
 .header__title {
-    color: var(--text-color-transparent);
+    color: var(--header-text);
     font-weight: 700;
     background: var(--highlight);
     align-self: center;
@@ -151,7 +151,7 @@ body {
 }
 
 .special-link {
-    border-bottom: 1px solid var(--light);
+    border-bottom: 1px solid var(--txt-color);
 }
 
 .main a:hover {

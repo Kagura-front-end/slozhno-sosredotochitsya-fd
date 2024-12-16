@@ -21,6 +21,9 @@
     --border-style: var(--bright);
     --border-style-hover: var(--hover);
     --rec-visibility: visible;
+    .title-question {
+        color: var(--bright);
+    }
 
 }
 @media (prefers-color-scheme: dark) { /* variables for dark mode and special link style */
@@ -42,12 +45,11 @@
         --text-color-main: var(--light);
         --text-color-transparent: var(--dark);
         --text-button: var(--bright);
+        --title-question: var(--bright);
         --shadow: var(--bright);
         --corner-color: var(--bright);
         --border-style: var(--bright);
         --border-style__hover: var(--hover);
         --rec-visibility: visible;
-        --title-question: var(--bright);
     }
-
 }

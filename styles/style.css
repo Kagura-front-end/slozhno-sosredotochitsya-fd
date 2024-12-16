@@ -51,7 +51,7 @@ body {
    "second-row"
    "third-row";
     height: 100vh;
-    max-height: 668px;
+    min-height: 668px;
     color: var(--highlight);
 }
 
@@ -274,7 +274,7 @@ body {
 /* Footer */
 .footer {
     height: 100vh;
-    max-height: 668px;
+    min-height: 668px;
     position: relative;
     display: grid;
     grid-template-rows: 1fr min-content 1fr;

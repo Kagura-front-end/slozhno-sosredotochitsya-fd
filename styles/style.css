@@ -4,13 +4,13 @@ body {
 }
 
 .page {
+    background-color: var(--background-color);
     min-width: 375px;
     background-image: var(--background);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    background-color: var(--background-color);
 }
 
 /* Rec-symbol  */
@@ -230,8 +230,7 @@ body {
 }
 
 .pictures {
-    /* padding-bottom: 60px; */
-    padding-bottom: 30px;
+    padding-bottom: 35px;
 }
 
 /* Other    */
@@ -408,9 +407,8 @@ body {
         grid-template-rows: repeat(3, auto);
         gap: var(--padding-desktop);
         margin-top: 20px;
-        background-color: var(--background-color);
         grid-gap: 20px;
-        padding-bottom: 55px;
+        padding-bottom: 65px;
     }
 
     .pictures__item {
@@ -418,7 +416,7 @@ body {
         align-items: stretch;
     }
 
-    .pictures-title {
+    .pictures__title {
         margin-inline: 20px;
     }
 

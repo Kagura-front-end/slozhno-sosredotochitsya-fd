@@ -3,10 +3,11 @@
     --dark: #000028;
     --dusk: #353430;
     --light: #FFF1F7;
-    --hover: #32312D66;
+    --hover: #FF007066;
     --bright: #FF8DCB;
     --brightest: #FFC2E6;
     --dark-bright: #FF0070;
+
 
     --background: url('./images/cover-image-light.png');
     --background-color: var(--light);
@@ -19,8 +20,8 @@
     --text-button: var(--dusk);
     --shadow: var(--dark-bright);
     --corner-color: var(--dusk);
-    --border-style: var(--dusk);
-    --border-style__hover: var(--hover);
+    --border-style: var(--dark-bright);
+    --border-style-hover: var(--hover);
     --rec-visibility: hidden;
 
     .title-question {

@@ -127,8 +127,9 @@ body {
 }
 
 .header__theme-menu-button:hover {
-    border-bottom: 1px solid var(--border-style-hover);
+  /*  border-bottom: 1px solid var(--border-style-hover);*/
     outline-offset: 1px;
+    border: 1px solid var(--border-style-hover);
 }
 
 .header__theme-menu-button_active {
@@ -140,7 +141,7 @@ body {
 .header__theme-menu-button:focus,
 .header__theme-menu-button:focus-visible {
     outline: none;
-    border-bottom: currentColor;
+    border-bottom: 1px solid currentColor;
 }
 
 /* Main */

@@ -25,6 +25,7 @@ body {
     font-size: 18px;
     grid-area: top-row;
     justify-self: end;
+    visibility: var(--rec-visibility);
 }
 
 .rec-symbol::after {

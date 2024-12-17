@@ -16,12 +16,6 @@
 
 }
 
-.page.theme_auto {
-    --border-style: var(--bright);
-    --border-style-hover: var(--hover);
-    --background-color: var(--background);
-}
-
 @media (width > 767px) { /*  --title-size variable for bigger screens */
     :root {
         --title-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);

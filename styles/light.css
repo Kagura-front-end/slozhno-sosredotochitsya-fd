@@ -46,7 +46,7 @@
         --background: url('./images/cover-image-light.png');
         --background-color: var(--bg-color);
         --highlight: var(--bright);
-        --btn-text: var(--dusk)
+        --btn-text: var(--dusk);
         --heading-color: var(--brightest);
         --text-color-highlight: var(--bright);
         --article-header-color: var(--bright);

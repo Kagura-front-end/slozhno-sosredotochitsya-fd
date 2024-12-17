@@ -53,7 +53,7 @@ body {
    "third-row";
     height: 100vh;
     min-height: 668px;
-    color: var(--highlight);
+    color: var(--btn-text);
 }
 
 .decorated-zone {
@@ -150,16 +150,14 @@ body {
     text-shadow: 1px 1px 0 var(--text-color-highlight);
 }
 
-.special-link {
-    border-bottom: 1px solid var(--txt-color);
-}
-
 .main a:hover {
     border-bottom: 1px solid currentColor;
 }
 
 .main a:focus {
-    outline: none;
+    border: 1px solid currentColor;
+    outline-offset: 1px;
+    pointer-events: none;
 }
 
 .main a:focus-visible {
@@ -244,7 +242,7 @@ body {
 
 .title-gap {
     font-size: var(--font-size);
-    color: var(--titles--text);
+    color: var(--titles-text);
     background-color: var(--bright);
     margin-bottom: var(--padding-desktop);
 }
@@ -252,7 +250,7 @@ body {
 .article-header {
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size);
-    color: var(--titles--text);
+    color: var(--titles-text);
     background-color: var(--article-header-color);
 }
 
@@ -500,7 +498,7 @@ body {
     .text-container-distractions {
         display: grid;
         margin-block-start: var(--padding-desktop);
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
         gap: 20px;
         padding: var(--padding-desktop);
     }

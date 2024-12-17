@@ -2,7 +2,7 @@
 
     --dusk: #353430;
     --bg-color: #FFF1F7;
-    --hover: #FF007066;
+    --hover: #32312D66;
     --bright: #FF8DCB;
     --brightest: #FFC2E6;
     --dark-bright: #FF0070;
@@ -22,6 +22,7 @@
     --border-style-hover: var(--hover);
     --rec-visibility: hidden;
     --titles--text: var(--dusk);
+    --btn-text: var(--dusk);
 
     .title-question {
         color: var(--dusk);
@@ -40,10 +41,12 @@
         --bright: #FF8DCB;
         --brightest: #FFC2E6;
         --dark-bright: #FF0070;
+        --bg-color: #FFF1F7;
 
         --background: url('./images/cover-image-light.png');
         --background-color: var(--bg-color);
         --highlight: var(--bright);
+        --btn-text: var(--dusk)
         --heading-color: var(--brightest);
         --text-color-highlight: var(--bright);
         --article-header-color: var(--bright);

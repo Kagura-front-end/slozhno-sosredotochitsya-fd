@@ -145,6 +145,10 @@ body {
 
 /* Main */
 
+main {
+    padding-top: 30px;
+}
+
 .main a {
     text-decoration: none;
     text-shadow: 1px 1px 0 var(--text-color-highlight);
@@ -164,8 +168,13 @@ body {
     border: 1px solid currentColor;
 }
 
+
+.content-section {
+    padding: var(--padding-mobile);
+    margin-bottom: 10px;
+}
+
 .title-question {
-    grid-column: 1;
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size);
     color: var(--title-question);
@@ -178,24 +187,6 @@ body {
     width: 100%;
 }
 
-.text-container-intro {
-    margin-block-start: 30px;
-    padding: var(--padding-mobile);
-}
-
-.text-container-distractions {
-    /* display: grid;
-     align-items: start; */
-    padding: 20px 10px 30px 10px;
-}
-
-.text-container-advice {
-    /*  display: grid; */
-    /*padding: 0 var(--padding-desktop);*/
-    padding: 0 var(--padding-mobile);
-    /*   grid-area: text-bottom; */
-}
-
 /* Pictures */
 .pictures__title {
     color: var(--text-color-transparent);
@@ -204,7 +195,7 @@ body {
     line-height: var(--line-height);
     font-weight: var(--font-weight-bold);
     text-align: left;
-    margin-top: 30px;
+    margin-top: 20px;
     margin-inline: 10px;
 }
 
@@ -244,8 +235,7 @@ body {
     font-size: var(--font-size);
     color: var(--titles-text);
     background-color: var(--bright);
-    margin-bottom: var(--padding-desktop);
-}
+    margin-bottom: var(--padding-desktop);}
 
 .article-header {
     font-weight: var(--font-weight-bold);
@@ -256,7 +246,7 @@ body {
 
 .title-thin {
     font-weight: var(--font-weight-normal);
-}
+    }
 
 .article-text {
     text-align: left;
@@ -264,10 +254,6 @@ body {
     padding-top: var(--padding-mobile);
     padding-bottom: var(--padding-desktop);
     line-height: var(--line-height);
-}
-
-.text-container-advice.article-text:last-of-type {
-    padding-bottom: var(--padding-mobile);
 }
 
 /* Footer */
@@ -331,47 +317,33 @@ body {
         width: 364px;
     }
 
-    .text-container-intro {
+    .content-section {
         display: grid;
         grid-template-columns: auto 65%;
-        padding: 60px 20px 20px 20px;
+        padding: 30px 20px 20px 20px;
         margin-block-start: 0;
+        grid-template-areas:
+    "top"
+    "middle"
+    "bottom";
+
     }
 
-    .text-container-intro .title-question {
-        grid-column: 1;
-        grid-row: 1;
-        width: 90%;
+    .concentration-question {
+     width: 90%;
     }
 
-    .text-container-distractions {
-        margin-block-start: var(--padding-desktop);
-        padding: var(--padding-desktop);
+    .distractions-section {
+        display: revert;
     }
 
-    .text-container-distractions h2:first-of-type {
+    .distractions-question {
         width: 30%;
     }
 
-    .text-container-advice {
-        display: grid;
-        margin-block-start: calc(var(--padding-desktop) * 2);
-        padding: 0 var(--padding-desktop);
-        grid-template-columns: auto 65%;
-        column-gap: var(--padding-desktop);
-        row-gap: 0;
-        margin-bottom: 60px;
+    .title-gap {
+        block-size: fit-content;
     }
-
-    .text-container-advice .title-question {
-        grid-column: 1;
-        grid-row: 1/5;
-    }
-
-/*    .column-right {
-        display: inline-grid;
-        grid-column: 2/3;
-    }*/
 
     .text-intro {
         grid-column: 1;
@@ -491,32 +463,13 @@ body {
         width: 491px;
     }
 
-    .text-container-intro {
-        grid-template-columns: auto 66%;
-    }
-
-    .text-container-distractions {
-        display: grid;
-        margin-block-start: var(--padding-desktop);
-        grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
-        gap: 20px;
-        padding: var(--padding-desktop);
-    }
-
-    .text-container-distractions h2:first-of-type {
-        width: 100%;
-    }
-
-    .text-container-distractions .title-question {
-        grid-row: 1;
-    }
-
-    .text-container-advice {
-        grid-template-columns: auto 66%;
-    }
-
     .title-question {
         padding-bottom: 0;
+    }
+
+    .content-section {
+        grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
+        column-gap: 20px;
     }
 
     .text-article {

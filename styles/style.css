@@ -469,8 +469,18 @@ main {
     }
 
     .content-section {
-        grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
+        grid-template-columns: auto 66%;
         column-gap: 20px;
+    }
+
+    .distractions-question {
+        width: 90%;
+        padding-bottom: 20px;
+    }
+
+    .distractions-section {
+        display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
     }
 
     .text-article {
@@ -479,7 +489,7 @@ main {
 
     .pictures__title {
         margin-inline: var(--padding-desktop);
-        margin-block: calc(var(--padding-desktop) * 3) var(--padding-desktop);
+        margin-block: 40px 10px;
     }
 }
 

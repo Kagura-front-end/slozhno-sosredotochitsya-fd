@@ -180,6 +180,8 @@ main {
     color: var(--title-question);
     padding-bottom: 20px;
     line-height: var(--line-height);
+    grid-column: 1;
+    grid-row: 1 / 5;
 }
 
 .main-text-container {
@@ -326,11 +328,10 @@ main {
     "top"
     "middle"
     "bottom";
-
     }
 
     .concentration-question {
-     width: 90%;
+        width: 90%;
     }
 
     .distractions-section {
@@ -365,7 +366,7 @@ main {
         gap: var(--padding-desktop);
         margin-top: 20px;
         grid-gap: 20px;
-        padding-bottom: 65px;
+        padding-bottom: 60px;
     }
 
     .pictures__item {
@@ -374,7 +375,7 @@ main {
     }
 
     .pictures__title {
-        margin-inline: 20px;
+        margin-top: 45px;
     }
 
 

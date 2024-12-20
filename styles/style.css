@@ -403,12 +403,16 @@ body {
     }
 
     .content-section {
-        grid-template-columns: 316px 1fr;
+        grid-template-columns: 316px 1fr 1fr;
+    }
+
+    article {
+        display: grid;
+        grid-column: 2 / span 3;
     }
 
     .title-question {
-        width: 300px;
-     /*   padding-bottom: 0;*/
+        width: 310px;
     }
 
     .text-intro {
@@ -425,6 +429,10 @@ body {
 
     .text-article {
         margin-block-start: var(--padding-desktop);
+    }
+
+    .title-gap {
+        grid-column: 2 / span 3;
     }
 
 }

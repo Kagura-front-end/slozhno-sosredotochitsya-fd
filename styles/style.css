@@ -495,15 +495,3 @@ main {
     }
 }
 
-@media (width < 375px) {
-    /* Rec-symbol visibility for resolution smaller than 375px */
-    .rec-symbol {
-        visibility: var(--rec-visibility);
-    }
-
-    .header,
-    .footer {
-        width: clamp(375px, 100vw, 400px);
-        height: clamp(668px, 100vh, 768px);
-    }
-}

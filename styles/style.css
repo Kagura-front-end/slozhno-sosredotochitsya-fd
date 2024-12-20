@@ -411,6 +411,10 @@ body {
         grid-column: 2 / span 3;
     }
 
+    .article-header {
+        height: 23px;
+    }
+
     .title-question {
         width: 310px;
     }

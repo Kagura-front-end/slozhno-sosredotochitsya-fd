@@ -1,4 +1,4 @@
-.page.theme_light {
+:root.theme-light {
 
 
     --dusk: #353430;
@@ -66,6 +66,24 @@
         --rec-visibility: hidden;
         --title-question: var(--dusk);
         --titles-text: var(--dusk);
-    }
 
+        --line-height: 1.4625rem;
+        --line-height-title: 5.98125rem;
+        --font-weight-bold: 700;
+        --font-weight-normal: 400;
+        --font-size: 18px;
+        --font-family: 'IBM Plex Mono', monospace, system-ui, -apple-system, sans-serif;
+        --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+        --padding-desktop: 20px;
+        --padding-mobile: 10px;
+
+        .title-question {
+            color: var(--dusk);
+        }
+
+
+        .special-link {
+            border-bottom: none;
+        }
+    }
 }

@@ -1,5 +1,5 @@
-.page.theme_dark {
-
+:root.theme-dark {
+    /* Дублируем переменные для тёмной темы */
 
     --bg-color: #000028;
     --dusk: #353430;
@@ -26,6 +26,16 @@
     --titles-text: var(--bg-color);
     --btn-text: var(--bright);
 
+    --line-height: 1.4625rem;
+    --line-height-title: 5.98125rem;
+    --font-weight-bold: 700;
+    --font-weight-normal: 400;
+    --font-size: 18px;
+    --font-family: 'IBM Plex Mono', monospace, system-ui, -apple-system, sans-serif;
+    --title-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+    --padding-desktop: 20px;
+    --padding-mobile: 10px;
+
 
     .title-question {
         color: var(--bright);
@@ -34,37 +44,5 @@
 
     .special-link {
         border-bottom: 1px solid currentColor;
-    }
-
-
-}
-@media (prefers-color-scheme: dark) { /* variables for dark mode and special link style */
-    :root {
-        --bg-color: #000028;
-        --dusk: #353430;
-        --txt-color: #F1B2CE;
-        --hover: #FF007066;
-        --bright: #FF0070;
-        --brightest: #DB00FF;
-
-
-        --background: url('../images/cover-image-dark.png');
-        --background-color: var(--bg-color);
-        --highlight: var(--bright);
-        --heading-color: var(--brightest);
-        --highlighted-area: var(--bright);
-        --text-color-highlight: var(--bright);
-        --article-header-color: var(--bright);
-        --text-color-main: var(--txt-color);
-        --text-color-transparent: var(--bg-color);
-        --text-button: var(--bright);
-        --title-question: var(--bright);
-        --shadow: var(--bright);
-        --corner-color: var(--bright);
-        --border-style: var(--bright);
-        --border-style-hover: var(--hover);
-        --rec-visibility: visible;
-        --titles-text: var(--bg-color);
-        --btn-text: var(--bright);
     }
 }

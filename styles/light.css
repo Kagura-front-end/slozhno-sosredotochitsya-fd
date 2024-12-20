@@ -1,11 +1,14 @@
 .page.theme_light {
 
+
     --dusk: #353430;
     --bg-color: #FFF1F7;
     --hover: #32312D66;
     --bright: #FF8DCB;
     --brightest: #FFC2E6;
     --dark-bright: #FF0070;
+
+
 
 
     --background: url('../images/cover-image-light.png');
@@ -24,14 +27,17 @@
     --titles--text: var(--dusk);
     --btn-text: var(--dusk);
 
+
     .title-question {
         color: var(--dusk);
     }
+
 
     .special-link {
         border-bottom: none;
     }
 }
+
 
 @media (prefers-color-scheme: light) {
     :root {
@@ -42,6 +48,7 @@
         --brightest: #FFC2E6;
         --dark-bright: #FF0070;
         --bg-color: #FFF1F7;
+
 
         --background: url('../images/cover-image-light.png');
         --background-color: var(--bg-color);
@@ -60,4 +67,5 @@
         --title-question: var(--dusk);
         --titles-text: var(--dusk);
     }
+
 }

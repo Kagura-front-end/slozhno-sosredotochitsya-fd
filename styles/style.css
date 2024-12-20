@@ -44,7 +44,6 @@ body {
 .header {
     position: relative;
     display: grid;
-/*    padding: var(--padding-mobile);*/
     grid-template-rows: 1fr min-content 1fr;
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -148,7 +147,7 @@ body {
 .main {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4,auto);
+    grid-template-rows: repeat(4, auto);
     margin-top: 30px;
     row-gap: var(--padding-mobile);
 
@@ -156,14 +155,17 @@ body {
         text-decoration: none;
         text-shadow: 1px 1px 0 var(--text-color-highlight);
     }
+
     a:hover {
         border-bottom: 1px solid currentColor;
     }
+
     a:focus {
         border: 1px solid currentColor;
         outline-offset: 1px;
         pointer-events: none;
     }
+
     a:focus-visible {
         border: 1px solid currentColor;
     }
@@ -182,15 +184,6 @@ body {
     line-height: var(--line-height);
 }
 
-.main-text-container {
-    width: 100%;
-}
-
-
-.text-container-advice {
-    padding: 0 var(--padding-mobile);
-}
-
 .article-header {
     font-size: var(--font-size);
     color: var(--titles-text);
@@ -202,7 +195,6 @@ body {
 }
 
 .article-text {
-    text-align: left;
     padding-top: var(--padding-mobile);
     padding-bottom: var(--padding-desktop);
 }
@@ -225,7 +217,6 @@ body {
 .pictures__item {
     width: 100%;
 }
-
 
 
 .title-gap {
@@ -260,7 +251,6 @@ body {
     /* Resolution bigger than 768px */
     .header,
     .footer {
-        height: 100vh;
         min-height: 1024px;
     }
 
@@ -298,7 +288,7 @@ body {
 
     .main {
         margin-top: 50px;
-        padding: 0  var(--padding-mobile);
+        padding: 0 var(--padding-mobile);
         row-gap: 40px;
     }
 
@@ -309,49 +299,12 @@ body {
     }
 
     .title-question {
-        grid-row: 1 / 100;
+        grid-row: 1 / span 10;
         width: 230px;
     }
 
-    .text-intro,.text-continuation,.text-conclusion {
+    .text-intro, .text-continuation, .text-conclusion {
         grid-column: 1 / 3;
-    }
-
-    .text-container-intro {
-        display: grid;
-        grid-template-columns: auto 65%;
-        padding: 60px 20px 20px 20px;
-        margin-block-start: 0;
-    }
-
-    .text-container-intro .title-question {
-        grid-column: 1;
-        grid-row: 1;
-        width: 90%;
-    }
-
-    .text-container-distractions {
-        margin-block-start: var(--padding-desktop);
-        padding: var(--padding-desktop);
-    }
-
-    .text-container-distractions h2:first-of-type {
-        width: 30%;
-    }
-
-    .text-container-advice {
-        display: grid;
-        margin-block-start: calc(var(--padding-desktop) * 2);
-        padding: 0 var(--padding-desktop);
-        grid-template-columns: auto 65%;
-        column-gap: var(--padding-desktop);
-        row-gap: 0;
-        margin-bottom: 60px;
-    }
-
-    .text-container-advice .title-question {
-        grid-column: 1;
-        grid-row: 1/5;
     }
 
     .pictures__list {
@@ -399,16 +352,7 @@ body {
     }
 
     .pictures__item img {
-        width: 100%;
         height: 100%;
-        object-fit: cover;
-    }
-
-    .pictures {
-        h2 {
-            display: grid;
-            grid-column: 1 / -1;
-        }
     }
 
     .footer {
@@ -458,30 +402,6 @@ body {
         width: 491px;
     }
 
-    .text-container-intro {
-        grid-template-columns: auto 66%;
-    }
-
-    .text-container-distractions {
-        display: grid;
-        margin-block-start: var(--padding-desktop);
-        grid-template-columns: repeat(auto-fit, minmax(315px, 1fr));
-        gap: 20px;
-        padding: var(--padding-desktop);
-    }
-
-    .text-container-distractions h2:first-of-type {
-        width: 100%;
-    }
-
-    .text-container-distractions .title-question {
-        grid-row: 1;
-    }
-
-    .text-container-advice {
-        grid-template-columns: auto 66%;
-    }
-
     .title-question {
         padding-bottom: 0;
     }
@@ -492,15 +412,3 @@ body {
 
 }
 
-@media (width < 375px) {
-    /* Rec-symbol visibility for resolution smaller than 375px */
-    .rec-symbol {
-        visibility: var(--rec-visibility);
-    }
-
-    .header,
-    .footer {
-        width: clamp(375px, 100vw, 400px);
-        height: clamp(668px, 100vh, 768px);
-    }
-}

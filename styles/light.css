@@ -43,7 +43,7 @@
         --dark-bright: #FF0070;
         --bg-color: #FFF1F7;
 
-        --background: url('./images/cover-image-light.png');
+        --background: url('../images/cover-image-light.png');
         --background-color: var(--bg-color);
         --highlight: var(--bright);
         --btn-text: var(--dusk);

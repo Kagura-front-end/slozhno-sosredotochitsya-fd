@@ -287,7 +287,6 @@ body {
 
     .header {
         padding: var(--padding-desktop);
-        /*** grid-template-rows: 1fr min-content 1fr; ***/
     }
 
     .header__theme-menu {
@@ -339,11 +338,6 @@ body {
         grid-column: 1;
         grid-row: 1/5;
     }
-
-/*    .column-right {
-        display: inline-grid;
-        grid-column: 2/3;
-    }*/
 
     .text-intro {
         grid-column: 1;

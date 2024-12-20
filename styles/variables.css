@@ -1,11 +1,9 @@
-:root  {
+:root {
 --bg-color: #000028;
---dusk: #353430;
 --txt-color: #F1B2CE;
 --hover: #FF007066;
 --bright: #FF0070;
 --brightest: #DB00FF;
-
 
 --background: url('../images/cover-image-dark.png');
 --background-color: var(--bg-color);

@@ -44,7 +44,7 @@ body {
 .header {
     position: relative;
     display: grid;
-    padding: var(--padding-mobile);
+/*    padding: var(--padding-mobile);*/
     grid-template-rows: 1fr min-content 1fr;
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -204,10 +204,8 @@ body {
 
 .article-text {
     text-align: left;
-    font-weight: var(--font-weight-normal);
     padding-top: var(--padding-mobile);
     padding-bottom: var(--padding-desktop);
-    line-height: var(--line-height);
 }
 
 /* Pictures */
@@ -256,7 +254,6 @@ body {
 }
 
 .footer__title {
-    margin: 0;
     grid-row: 2;
     justify-self: center;
     font-weight: var(--font-weight-bold);

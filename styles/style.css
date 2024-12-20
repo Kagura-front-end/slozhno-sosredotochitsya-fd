@@ -248,7 +248,7 @@ body {
 }
 
 @media (width > 767px) {
-    /* Resolution bigger than 768px */
+    /* Resolution for tablets, 768px min */
     .header,
     .footer {
         min-height: 1024px;
@@ -368,7 +368,7 @@ body {
 }
 
 @media (width > 1023px) {
-    /* Resolution bigger than 1023px */
+    /* Resolution for desktops, 1024px min */
     .page {
         max-width: 1600px;
         min-width: 1024px;
@@ -402,8 +402,13 @@ body {
         width: 491px;
     }
 
+    .content-section {
+        grid-template-columns: 316px 1fr;
+    }
+
     .title-question {
-        padding-bottom: 0;
+        width: 300px;
+     /*   padding-bottom: 0;*/
     }
 
     .text-article {

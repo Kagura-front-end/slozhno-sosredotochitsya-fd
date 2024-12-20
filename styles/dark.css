@@ -61,4 +61,12 @@
         --titles-text: var(--bg-color);
         --btn-text: var(--bright);
     }
+
+    .title-question {
+        color: var(--bright);
+    }
+
+    .special-link {
+        border-bottom: 1px solid currentColor;
+    }
 }

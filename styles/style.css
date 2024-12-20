@@ -237,7 +237,8 @@ main {
     font-size: var(--font-size);
     color: var(--titles-text);
     background-color: var(--bright);
-    margin-bottom: var(--padding-desktop);}
+    margin-bottom: var(--padding-desktop);
+}
 
 .article-header {
     font-weight: var(--font-weight-bold);

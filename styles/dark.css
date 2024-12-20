@@ -1,6 +1,5 @@
 .page.theme_dark {
 
-    --dusk: #353430;
     --txt-color: #F1B2CE;
     --hover: #FF007066;
     --bright: #FF0070;
@@ -38,7 +37,6 @@
 
 @media (prefers-color-scheme: dark) { /* variables for dark mode and special link style */
     :root {
-        --dusk: #353430;
         --txt-color: #F1B2CE;
         --hover: #FF007066;
         --bright: #FF0070;

@@ -1,11 +1,9 @@
 .page.theme_dark {
-
     --txt-color: #F1B2CE;
     --hover: #FF007066;
     --bright: #FF0070;
     --brightest: #DB00FF;
     --bg-color: #000028;
-
 
     --background: url('../images/cover-image-dark.png');
     --background-color: var(--bg-color);
@@ -17,7 +15,6 @@
     --text-color-main: var(--txt-color);
     --text-color-transparent: var(--bg-color);
     --text-button: var(--bright);
-    --title-question: var(--bright);
     --shadow: var(--bright);
     --corner-color: var(--bright);
     --border-style: var(--bright);
@@ -26,22 +23,22 @@
     --titles-text: var(--bg-color);
     --btn-text: var(--bright);
 }
-    .title-question {
-        color: var(--bright);
-    }
 
-    .special-link {
-        border-bottom: 1px solid currentColor;
-    }
+.title-question {
+    color: var(--bright);
+}
 
-@media (prefers-color-scheme: dark) { /* variables for dark mode and special link style */
+.special-link {
+    border-bottom: 1px solid currentColor;
+}
+
+@media (prefers-color-scheme: dark) {
     :root {
         --txt-color: #F1B2CE;
         --hover: #FF007066;
         --bright: #FF0070;
         --brightest: #DB00FF;
         --bg-color: #000028;
-
 
         --background: url('../images/cover-image-dark.png');
         --background-color: var(--bg-color);
@@ -53,7 +50,6 @@
         --text-color-main: var(--txt-color);
         --text-color-transparent: var(--bg-color);
         --text-button: var(--bright);
-        --title-question: var(--bright);
         --shadow: var(--bright);
         --corner-color: var(--bright);
         --border-style: var(--bright);

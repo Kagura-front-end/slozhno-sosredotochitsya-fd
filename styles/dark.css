@@ -12,11 +12,13 @@
     --background-color: var(--bg-color);
     --highlight: var(--bright);
     --heading-color: var(--brightest);
+    --highlighted-area: var(--bright);
     --text-color-highlight: var(--bright);
     --article-header-color: var(--bright);
     --text-color-main: var(--txt-color);
     --text-color-transparent: var(--bg-color);
     --text-button: var(--bright);
+    --title-question: var(--bright);
     --shadow: var(--bright);
     --corner-color: var(--bright);
     --border-style: var(--bright);
@@ -32,8 +34,8 @@
     .special-link {
         border-bottom: 1px solid currentColor;
     }
-
 }
+
 @media (prefers-color-scheme: dark) { /* variables for dark mode and special link style */
     :root {
         --dusk: #353430;
@@ -62,5 +64,13 @@
         --rec-visibility: visible;
         --titles-text: var(--bg-color);
         --btn-text: var(--bright);
+    }
+
+    .title-question {
+        color: var(--bright);
+    }
+
+    .special-link {
+        border-bottom: 1px solid currentColor;
     }
 }

@@ -145,6 +145,10 @@ body {
 
 /* Main */
 
+.main {
+    margin-top: 30px;
+}
+
 .main a {
     text-decoration: none;
     text-shadow: 1px 1px 0 var(--text-color-highlight);
@@ -179,13 +183,10 @@ body {
 }
 
 .text-container-intro {
-    margin-block-start: 30px;
     padding: var(--padding-mobile);
 }
 
 .text-container-distractions {
-    /* display: grid;
-     align-items: start; */
     padding: 20px 10px 30px 10px;
 }
 

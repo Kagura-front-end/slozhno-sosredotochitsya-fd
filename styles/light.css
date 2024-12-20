@@ -8,7 +8,7 @@
     --dark-bright: #FF0070;
 
 
-    --background: url('./images/cover-image-light.png');
+    --background: url('../images/cover-image-light.png');
     --background-color: var(--bg-color);
     --highlight: var(--bright);
     --heading-color: var(--brightest);
@@ -60,6 +60,4 @@
         --title-question: var(--dusk);
         --titles-text: var(--dusk);
     }
-
-
 }

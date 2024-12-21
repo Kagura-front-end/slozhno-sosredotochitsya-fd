@@ -4,13 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86eb07ff-8e31-4e49-8d88-8af480e370bf" name="Changes" comment="" />
+    <list default="true" id="86eb07ff-8e31-4e49-8d88-8af480e370bf" name="Changes" comment="добавлены селекторы для рядов контента">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="finishing_line" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
@@ -19,12 +30,18 @@
     &quot;assignee&quot;: &quot;Kagura-front-end&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="00febd98-0562-436d-9ee1-f590f0633d30" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/Kagura-front-end/slozhno-sosredotochitsya-fd.git&quot;,
     &quot;accountId&quot;: &quot;bf2cbaf3-5321-4a42-accc-3d1a79988dd3&quot;
   }
 }</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -36,15 +53,18 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;com.codeium.enabled&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;finishing__line&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;sparta&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/User/dev/PR3/slozhno2/.github/workflows/tests.yml&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
     &quot;two.files.diff.last.used.file&quot;: &quot;C:/Users/User/dev/PR3/slozhno2/.github/workflows/tests.yml&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -52,7 +72,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+        <option value="bundled-php-predefined-ba97393d7c68-6f8e3395a2b4-com.jetbrains.php.sharedIndexes-PS-233.15619.9" />
       </set>
     </attachedChunks>
   </component>
@@ -66,10 +86,80 @@
       <updated>1734119349623</updated>
       <workItem from="1734119350885" duration="4897000" />
       <workItem from="1734124407371" duration="18790000" />
+      <workItem from="1734699453505" duration="21193000" />
     </task>
+    <task id="LOCAL-00001" summary="небольшая правка в последний момент">
+      <option name="closed" value="true" />
+      <created>1734721626787</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1734721626787</updated>
+    </task>
+    <task id="LOCAL-00002" summary="средний брекпойнт пересобран начерно">
+      <option name="closed" value="true" />
+      <created>1734728053145</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734728053145</updated>
+    </task>
+    <task id="LOCAL-00003" summary="path for background image fixed">
+      <option name="closed" value="true" />
+      <created>1734728341269</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1734728341269</updated>
+    </task>
+    <task id="LOCAL-00004" summary="добавлены индивидуальные селекторы для трех секций с текстами">
+      <option name="closed" value="true" />
+      <created>1734785423073</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734785423073</updated>
+    </task>
+    <task id="LOCAL-00005" summary="первый заголовок поправлен">
+      <option name="closed" value="true" />
+      <created>1734789795397</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1734789795397</updated>
+    </task>
+    <task id="LOCAL-00006" summary="добавлены селекторы для рядов контента">
+      <option name="closed" value="true" />
+      <created>1734790909495</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1734790909495</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="небольшая правка в последний момент" />
+    <MESSAGE value="средний брекпойнт пересобран начерно" />
+    <MESSAGE value="path for background image fixed" />
+    <MESSAGE value="добавлены индивидуальные селекторы для трех секций с текстами" />
+    <MESSAGE value="первый заголовок поправлен" />
+    <MESSAGE value="добавлены селекторы для рядов контента" />
+    <option name="LAST_COMMIT_MESSAGE" value="добавлены селекторы для рядов контента" />
   </component>
 </project>

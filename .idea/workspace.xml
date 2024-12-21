@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86eb07ff-8e31-4e49-8d88-8af480e370bf" name="Changes" comment="path for background image fixed">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +87,7 @@
       <workItem from="1734119350885" duration="4897000" />
       <workItem from="1734124407371" duration="18790000" />
       <workItem from="1734699453505" duration="21193000" />
-      <workItem from="1734780445356" duration="2193000" />
+      <workItem from="1734780445356" duration="2940000" />
     </task>
     <task id="LOCAL-00001" summary="небольшая правка в последний момент">
       <option name="closed" value="true" />

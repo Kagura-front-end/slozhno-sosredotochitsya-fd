@@ -464,22 +464,6 @@ body {
         width: 316px;
     }
 
-    .text-intro {
-        grid-column: 1;
-    }
-
-    .text-continuation {
-        grid-column: 2;
-    }
-
-    .text-conclusion {
-        grid-column: 3;
-    }
-
-    .text-article {
-        margin-block-start: var(--padding-desktop);
-    }
-
     .title-gap {
         grid-column: 2 / span 3;
     }

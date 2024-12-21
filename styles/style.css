@@ -297,7 +297,9 @@ body {
         grid-template-columns: repeat(3,1fr);
         column-gap: var(--padding-desktop);
     }
-
+    .title-question {
+        width: 235px;
+    }
     .section-top {
         article {
             grid-column: 2 / span 3;
@@ -309,7 +311,6 @@ body {
         }
         .title-question {
             grid-column: 1 / span 3;
-            width: 230px;
         }
     }
 
@@ -318,7 +319,6 @@ body {
             grid-column: 2 / span 3;
         }
         .title-question {
-            width: 235px;
             grid-row: 1 / span 2;
         }
         .title-gap {

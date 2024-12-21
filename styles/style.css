@@ -414,6 +414,9 @@ body {
 
     .section-middle {
         align-items: start;
+        .title-question {
+            grid-column: 1 / span 3;
+        }
     }
 
     .section-bottom {

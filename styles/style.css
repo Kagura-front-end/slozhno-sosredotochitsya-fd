@@ -411,8 +411,27 @@ body {
         grid-column: 2 / span 3;
     }
 
+    .flex-article {
+        display: block;
+        max-width: 315px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
     .article-header {
         height: 23px;
+    }
+
+    .concentration-question {
+        flex: 0 0 100%;
+        width: 100%;
+        display: block;
+    }
+
+    .flex-section {
+        display: flex;
+        justify-content: start;
+        flex-wrap: wrap;
     }
 
     .title-question {

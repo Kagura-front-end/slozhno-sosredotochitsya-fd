@@ -403,24 +403,25 @@ body {
     }
 
     .content-section {
-        grid-template-columns: 316px 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
     }
 
     .section-top {
-        display: flex;
+        article {
+            grid-column: 2 / span 3;
+        }
     }
 
     .section-middle {
-        display: flex;
+        align-items: start;
     }
 
     .section-bottom {
-        display: flex;
+
     }
 
     article {
         display: grid;
-        grid-column: 2 / span 3;
     }
 
     .article-header {
@@ -428,7 +429,8 @@ body {
     }
 
     .title-question {
-        width: 310px;
+        line-height: 1.35em;
+        width: 316px;
     }
 
     .text-intro {

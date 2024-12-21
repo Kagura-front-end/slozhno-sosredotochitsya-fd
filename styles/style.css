@@ -294,14 +294,23 @@ body {
 
     .content-section {
         display: grid;
-        grid-template-columns: 238px 1fr;
+        /*grid-template-columns: 238px 1fr;*/
+        grid-template-columns: repeat(3,1fr);
         column-gap: var(--padding-desktop);
     }
 
-    .title-question {
-        grid-row: 1 / span 10;
-        width: 230px;
+    .section-top {
+        article {
+            grid-column: 2 / span 3;
+        }
     }
+    .section-bottom{
+        .title-question {
+            grid-column: 1 / 2;
+            width: 230px;
+        }
+    }
+
 
     .text-intro, .text-continuation, .text-conclusion {
         grid-column: 1 / 3;

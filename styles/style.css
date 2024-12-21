@@ -466,18 +466,13 @@ main {
         width: 491px;
     }
 
-    .title-question {
-        padding-bottom: 0;
-    }
-
     .content-section {
         grid-template-columns: auto 66%;
         column-gap: 20px;
     }
 
     .distractions-question {
-        width: 90%;
-        padding-bottom: 20px;
+        width: 75%;
     }
 
     .distractions-section {

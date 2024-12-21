@@ -314,7 +314,22 @@ body {
     }
 
     .section-bottom {
+        article {
+            grid-column: 2 / span 3;
+        }
+        .title-question {
+            width: 235px;
+            grid-row: 1 / span 2;
+        }
+        .title-gap {
+            grid-column: 2 / span 3;
+        }
+    }
 
+    .section-pictures {
+        .article-header {
+            grid-column: 1 / span 3;
+        }
     }
 
     .pictures__list {

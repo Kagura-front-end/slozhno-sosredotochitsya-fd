@@ -356,9 +356,9 @@ main {
         grid-column: 2;
     }
 
-    .text-conclusion {
+  /*  .text-conclusion {
         grid-column: 3;
-    }
+    }*/
 
     .pictures__list {
         padding: 0 var(--padding-desktop);

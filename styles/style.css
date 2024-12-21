@@ -439,6 +439,9 @@ body {
 
     .section-middle {
         align-items: start;
+        article {
+            grid-column: auto;
+        }
         .title-question {
             grid-column: 1 / span 3;
         }

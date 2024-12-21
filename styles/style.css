@@ -411,16 +411,19 @@ body {
         grid-column: 2 / span 3;
     }
 
-    .flex-article {
-        display: block;
-        max-width: 315px;
-        width: 100%;
-        box-sizing: border-box;
-    }
-
     .article-header {
         height: 23px;
     }
+/*
+3 columns section start
+*/
+
+    .flex-article {
+        display: block;
+        width: clamp(300px, 100%, 315px);
+        box-sizing: border-box;
+    }
+
 
     .concentration-question {
         flex: 0 0 100%;
@@ -431,9 +434,17 @@ body {
     .flex-section {
         display: flex;
         justify-content: start;
+        justify-self: center;
         flex-wrap: wrap;
+        row-gap: 20px;
+        column-gap: 20px;
+        padding: 0;
     }
 
+    /*
+    3 columns section end
+    */
+    
     .title-question {
         width: 310px;
     }

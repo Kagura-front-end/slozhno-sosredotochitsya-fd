@@ -23,14 +23,7 @@
     --rec-visibility: hidden;
     --titles--text: var(--dusk);
     --btn-text: var(--dusk);
-
-    .title-question {
-        color: var(--dusk);
-    }
-
-    .special-link {
-        border-bottom: none;
-    }
+    --title-question: var(--dusk);
 }
 
 @media (prefers-color-scheme: light) {

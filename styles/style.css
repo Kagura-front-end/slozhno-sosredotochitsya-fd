@@ -299,15 +299,15 @@ body {
     }
 
     .title-question {
-        width: 29vw;
+        width: 30vw;
     }
 
-    .section-top {
+    .intro-section {
         article {
             grid-column: 2 / span 3;
         }
     }
-    .section-middle {
+    .problem-description {
         article {
             grid-column: 1 / span 3;
         }
@@ -316,7 +316,7 @@ body {
         }
     }
 
-    .section-bottom {
+    .solutions-section {
         article {
             grid-column: 2 / span 3;
         }
@@ -406,11 +406,6 @@ body {
         min-height: 768px;
     }
 
-
-    .header {
-        padding: 20px;
-    }
-
     .header__theme-menu {
         justify-self: center;
         align-self: start;
@@ -429,25 +424,11 @@ body {
         width: 491px;
     }
 
-    .content-section {
-        grid-template-columns: repeat(3, 1fr);
-    }
-
-    .section-top {
-        article {
-            grid-column: 2 / span 3;
-        }
-    }
-
-    .section-middle {
+    .problem-description {
         align-items: start;
 
         article {
             grid-column: auto;
-        }
-
-        .title-question {
-            grid-column: 1 / span 3;
         }
     }
 

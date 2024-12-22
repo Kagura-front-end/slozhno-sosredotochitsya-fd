@@ -297,9 +297,11 @@ body {
         grid-template-columns: repeat(3,1fr);
         column-gap: var(--padding-desktop);
     }
+    
     .title-question {
-        width: 235px;
+        width: 30vw;
     }
+
     .section-top {
         article {
             grid-column: 2 / span 3;
@@ -442,7 +444,7 @@ body {
         article {
             grid-column: auto;
         }
-        
+
         .title-question {
             grid-column: 1 / span 3;
         }
@@ -458,12 +460,10 @@ body {
 
     .title-question {
         line-height: 1.35em;
-        width: 316px;
+       /* min-width: 316px;*/
     }
 
     .title-gap {
         grid-column: 2 / span 3;
     }
-
 }
-

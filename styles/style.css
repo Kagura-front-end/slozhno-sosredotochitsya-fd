@@ -442,14 +442,11 @@ body {
         article {
             grid-column: auto;
         }
+        
         .title-question {
             grid-column: 1 / span 3;
         }
-    }
 
-    .section-bottom {
-
-    }
 
     article {
         display: grid;

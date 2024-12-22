@@ -444,8 +444,4 @@ body {
         line-height: 1.35em;
        /* min-width: 316px;*/
     }
-
-    .title-gap {
-        grid-column: 2 / span 3;
-    }
 }

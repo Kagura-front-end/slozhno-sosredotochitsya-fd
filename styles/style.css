@@ -299,7 +299,7 @@ body {
     }
 
     .title-question {
-        width: 30vw;
+        width: 31vw;
     }
 
     .section-top {
@@ -441,6 +441,7 @@ body {
 
     .section-middle {
         align-items: start;
+
         article {
             grid-column: auto;
         }
@@ -448,7 +449,7 @@ body {
         .title-question {
             grid-column: 1 / span 3;
         }
-
+    }
 
     article {
         display: grid;

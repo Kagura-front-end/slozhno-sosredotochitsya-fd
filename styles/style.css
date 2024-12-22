@@ -297,7 +297,7 @@ body {
         grid-template-columns: repeat(3,1fr);
         column-gap: var(--padding-desktop);
     }
-    
+
     .title-question {
         width: 30vw;
     }
@@ -441,6 +441,7 @@ body {
 
     .section-middle {
         align-items: start;
+
         article {
             grid-column: auto;
         }
@@ -448,7 +449,7 @@ body {
         .title-question {
             grid-column: 1 / span 3;
         }
-
+    }
 
     article {
         display: grid;

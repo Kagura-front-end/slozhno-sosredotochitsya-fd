@@ -298,7 +298,7 @@ body {
     }
 
     .title-question {
-        width: 30vw;
+        min-width: 235px;
     }
 
     .intro-section {
@@ -441,6 +441,6 @@ body {
 
     .title-question {
         line-height: 1.35em;
-       /* min-width: 316px;*/
+        min-width: 315px;
     }
 }

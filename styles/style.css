@@ -299,17 +299,22 @@ body {
     }
 
     .title-question {
-        width: 29vw;
+        width: 30vw;
+    }
+
+    .article-container {
+        padding-left: 5px;
     }
 
     .section-top {
-        article {
+        .article-container {
             grid-column: 2 / span 3;
         }
     }
     .section-middle {
-        article {
+        .article-container {
             grid-column: 1 / span 3;
+            padding-left: 0;
         }
         .title-question {
             grid-column: 1 / span 3;
@@ -317,7 +322,7 @@ body {
     }
 
     .section-bottom {
-        article {
+        .article-container {
             grid-column: 2 / span 3;
         }
         .title-question {
@@ -325,6 +330,7 @@ body {
         }
         .title-gap {
             grid-column: 2 / span 3;
+            margin-left: 5px;
         }
     }
 
@@ -434,7 +440,7 @@ body {
     }
 
     .section-top {
-        article {
+        .article-container {
             grid-column: 2 / span 3;
         }
     }
@@ -442,7 +448,7 @@ body {
     .section-middle {
         align-items: start;
 
-        article {
+        .article-container {
             grid-column: auto;
         }
 
@@ -451,7 +457,7 @@ body {
         }
     }
 
-    article {
+    .article-container {
         display: grid;
     }
 

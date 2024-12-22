@@ -311,6 +311,7 @@ body {
             grid-column: 1 / span 3;
         }
         .title-question {
+            max-width: 215px;
             grid-column: 1 / span 3;
         }
     }
@@ -425,6 +426,10 @@ body {
 
     .problem-description {
         align-items: start;
+
+        .title-question {
+            max-width: 315px;
+        }
 
         .article-container {
             grid-column: auto;

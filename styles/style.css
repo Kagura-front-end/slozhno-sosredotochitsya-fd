@@ -179,7 +179,7 @@ body {
 .title-question {
     font-weight: var(--font-weight-bold);
     font-size: var(--font-size);
-    color: var(--title-question);
+/*    color: var(--title-question);*/
     padding-bottom: 20px;
     line-height: var(--line-height);
 }
@@ -461,9 +461,11 @@ body {
         display: grid;
     }
 
+    /*
     .article-header {
         height: 23px;
     }
+    */
 
     .title-question {
         line-height: 1.35em;

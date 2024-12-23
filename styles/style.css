@@ -161,12 +161,14 @@ body {
 
     a:focus {
         border: 1px solid currentColor;
-        outline-offset: 1px;
         pointer-events: none;
+        border-radius: 0;
     }
 
     a:focus-visible {
         border: 1px solid currentColor;
+        border-radius: 0;
+        outline: none;
     }
 }
 
@@ -245,6 +247,8 @@ body {
     font-weight: var(--font-weight-bold);
     color: var(--heading-color);
     text-shadow: 2px 2px 0 var(--shadow);
+    font-size: var(--title-size);
+    line-height: 6.188rem;
 }
 
 @media (width > 767px) {
@@ -390,7 +394,6 @@ body {
     }
 
     .footer__title {
-        font-size: var(--title-size);
         line-height: 6.188rem;
     }
 }
@@ -439,10 +442,6 @@ body {
 
     .article-container {
         display: grid;
-    }
-
-    .article-header {
-        height: 23px;
     }
 
     .title-question {

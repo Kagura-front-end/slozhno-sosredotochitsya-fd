@@ -21,7 +21,7 @@
     --border-style: var(--dark-bright);
     --border-style-hover: var(--hover);
     --rec-visibility: hidden;
-    --titles--text: var(--dusk);
+    --titles-text: var(--dusk);
     --btn-text: var(--dusk);
     --title-question: var(--dusk);
 }
